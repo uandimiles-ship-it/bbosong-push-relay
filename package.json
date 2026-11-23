@@ -1,0 +1,9 @@
+{
+  "name": "bbosong-push-relay",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Free push relay for the Bbosong app: Firestore notification docs -> FCM HTTP v1. Runs on GitHub Actions schedule.",
+  "main": "relay.js",
+  "engines": { "node": ">=20" },
+  "dependencies": { "firebase-admin": "^13.0.0" }
+}
